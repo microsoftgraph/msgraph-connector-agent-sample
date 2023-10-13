@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.49.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.507">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="Contracts\CommonModels.proto" GrpcServices="Server" />
+    <Protobuf Include="Contracts\ConnectionManagementContracts.proto" GrpcServices="Server" />
+    <Protobuf Include="Contracts\ConnectorCrawlContract.proto" GrpcServices="Server" />
+    <Protobuf Include="Contracts\ConnectorInfoContracts.proto" GrpcServices="Server" />
+    <Protobuf Include="Contracts\ConnectorOAuthContracts.proto" GrpcServices="Server" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" />
+  </ItemGroup>
+</Project>
