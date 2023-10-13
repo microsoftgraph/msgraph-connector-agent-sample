@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <InfoServiceSnippet>
 using Grpc.Core;
 using Microsoft.Graph.Connectors.Contracts.Grpc;
 
@@ -42,3 +43,4 @@ public class InfoService : ConnectorInfoService.ConnectorInfoServiceBase
         return Task.FromResult(new HealthCheckResponse());
     }
 }
+// </InfoServiceSnippet>

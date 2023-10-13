@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <AppliancePartMapSnippet>
 using CsvHelper.Configuration;
 
 namespace PartsInventoryConnector.Data;
@@ -17,3 +18,4 @@ public class AppliancePartMap : ClassMap<AppliancePart>
         Map(m => m.Appliances).TypeConverter<ApplianceListConverter>();
     }
 }
+// </AppliancePartMapSnippet>

@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <AppliancePartSnippet>
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using Microsoft.Graph.Connectors.Contracts.Grpc;
@@ -165,3 +166,4 @@ public class AppliancePart
         return propertyValueMap;
     }
 }
+// </AppliancePartSnippet>

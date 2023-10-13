@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <CrawlerServiceSnippet>
 using Grpc.Core;
 using Microsoft.Graph.Connectors.Contracts.Grpc;
 using PartsInventoryConnector.Data;
@@ -133,3 +134,4 @@ public class CrawlerService : ConnectorCrawlerService.ConnectorCrawlerServiceBas
         };
     }
 }
+// </CrawlerServiceSnippet>

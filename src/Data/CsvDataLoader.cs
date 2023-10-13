@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <CsvDataLoaderSnippet>
 using System.Globalization;
 using CsvHelper;
 using Microsoft.Graph.Connectors.Contracts.Grpc;
@@ -30,3 +31,4 @@ public static class CsvDataLoader
         }
     }
 }
+// </CsvDataLoaderSnippet>

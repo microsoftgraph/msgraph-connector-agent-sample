@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <ApplianceListConverterSnippet>
 using CsvHelper;
 using CsvHelper.Configuration;
 using CsvHelper.TypeConversion;
@@ -16,3 +17,4 @@ public class ApplianceListConverter : DefaultTypeConverter
         return new List<string>(appliances);
     }
 }
+// </ApplianceListConverterSnippet>

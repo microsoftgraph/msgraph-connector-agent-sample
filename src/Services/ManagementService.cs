@@ -1,6 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
+// <ManagementServiceSnippet>
 using Grpc.Core;
 using Microsoft.Graph.Connectors.Contracts.Grpc;
 using PartsInventoryConnector.Data;
@@ -95,3 +96,4 @@ public class ManagementService : ConnectionManagementService.ConnectionManagemen
         return Task.FromResult(response);
     }
 }
+// </ManagementServiceSnippet>
