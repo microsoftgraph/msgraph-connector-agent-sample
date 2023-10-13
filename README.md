@@ -1,6 +1,6 @@
 # Microsoft Graph connector agent sample
 
-![License.](https://img.shields.io/badge/license-MIT-green.svg)
+[![dotnet build](https://github.com/microsoftgraph/msgraph-connector-agent-sample/actions/workflows/dotnet.yml/badge.svg)](https://github.com/microsoftgraph/msgraph-connector-agent-sample/actions/workflows/dotnet.yml) ![License.](https://img.shields.io/badge/license-MIT-green.svg)
 
 Microsoft Graph connectors let you add your own data to the semantic search index and have it power various Microsoft 365 experiences. This .NET application shows you how to use the [Microsoft Graph connector agent](https://learn.microsoft.com/microsoftsearch/graph-connector-agent) and the [Microsoft Graph connectors SDK](https://learn.microsoft.com/graph/custom-connector-sdk-overview) to create a custom connector that indexes items from a sample appliance parts inventory. This connector sample powers experiences such as Microsoft Search, Copilot in Teams, the Microsoft 365 App, and more.
 
